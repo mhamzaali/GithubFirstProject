@@ -30,7 +30,7 @@ jobs:
     - name: Installing Surge
       run: npm install -g surge
     - name: Deploying Using Surge
-      run: surge ./ hamzaali_sample1.surge.sh/ --token $ {{secrets.SURGE-TOKEN}}
+      run: surge ./hamzaali_sample1.surge.sh --token $ {{secrets.SURGE-TOKEN}}
       
         echo Add other actions to build,
         echo test, and deploy your project.
